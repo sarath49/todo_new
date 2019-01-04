@@ -1,0 +1,27 @@
+# Todo new entity routing definition
+todo_new_entity.settings_tab:
+  route_name: todo_new_entity.settings
+  title: 'Settings'
+  base_route: todo_new_entity.settings
+
+entity.todo_new_entity.canonical:
+  route_name: entity.todo_new_entity.canonical
+  base_route: entity.todo_new_entity.canonical
+  title: 'View'
+
+entity.todo_new_entity.edit_form:
+  route_name: entity.todo_new_entity.edit_form
+  base_route: entity.todo_new_entity.canonical
+  title: 'Edit'
+
+entity.todo_new_entity.version_history:
+  route_name: entity.todo_new_entity.version_history
+  base_route: entity.todo_new_entity.canonical
+  title: 'Revisions'
+
+entity.todo_new_entity.delete_form:
+  route_name:  entity.todo_new_entity.delete_form
+  base_route:  entity.todo_new_entity.canonical
+  title: Delete
+  weight: 10
+

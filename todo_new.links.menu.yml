@@ -1,0 +1,14 @@
+
+# Todo new entity menu items definition
+entity.todo_new_entity.collection:
+  title: 'Todo new entity list'
+  route_name: entity.todo_new_entity.collection
+  description: 'List Todo new entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+todo_new_entity.admin.structure.settings:
+  title: 'Todo new entity settings'
+  description: 'Configure Todo new entity entities'
+  route_name: todo_new_entity.settings
+  parent: system.admin_structure

@@ -1,0 +1,30 @@
+add todo new entity entities:
+  title: 'Create new Todo new entity entities'
+
+administer todo new entity entities:
+  title: 'Administer Todo new entity entities'
+  description: 'Allow to access the administration form to configure Todo new entity entities.'
+  restrict access: true
+
+delete todo new entity entities:
+  title: 'Delete Todo new entity entities'
+
+edit todo new entity entities:
+  title: 'Edit Todo new entity entities'
+
+view published todo new entity entities:
+  title: 'View published Todo new entity entities'
+
+view unpublished todo new entity entities:
+  title: 'View unpublished Todo new entity entities'
+
+view all todo new entity revisions:
+  title: 'View all Todo new entity revisions'
+
+revert all todo new entity revisions:
+  title: 'Revert all Todo new entity revisions'
+  description: 'Role requires permission <em>view Todo new entity revisions</em> and <em>edit rights</em> for todo new entity entities in question or <em>administer todo new entity entities</em>.'
+
+delete all todo new entity revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Todo new entity revisions</em> and <em>delete rights</em> for todo new entity entities in question or <em>administer todo new entity entities</em>.'

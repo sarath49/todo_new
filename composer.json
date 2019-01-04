@@ -1,0 +1,14 @@
+{
+  "name": "drupal/todo_new",
+  "type": "drupal-module",
+  "description": "Todo New Module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/todo_new",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/todo_new",
+    "source": "http://cgit.drupalcode.org/todo_new"
+  },
+  "require": { }
+}
